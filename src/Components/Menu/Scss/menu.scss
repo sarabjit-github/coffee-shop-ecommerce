@@ -1,0 +1,15 @@
+$accent: #f6ebda;
+$primary: #ff902b;
+$secondary: #2f2105;
+$light: #7e7d7a;
+
+.menu-container{
+    max-width: 1150px;
+    margin: 2rem auto 7.5rem auto;
+    .mc-con{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2.5rem;
+        margin-top: 2.5rem;
+    }
+}

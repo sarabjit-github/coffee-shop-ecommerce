@@ -1,0 +1,163 @@
+.hero-con {
+  width: 100%;
+  height: 970px;
+  background-color: #f6ebda;
+}
+
+.hero {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  height: 970px;
+  background: #f6ebda;
+  position: relative;
+  overflow: hidden;
+}
+.hero .bg-img {
+  position: absolute;
+  width: 35rem;
+  height: 22rem;
+  z-index: -1;
+}
+.hero .bg-img img {
+  width: inherit;
+  height: inherit;
+}
+.hero .bg-img1 {
+  right: -4%;
+  top: -4%;
+}
+.hero .bg-img2 {
+  bottom: 2%;
+  left: 4%;
+  transform: scale(1.2);
+}
+.hero .middle-section {
+  max-width: 1160px;
+  width: 100%;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .middle-section .left {
+  max-width: 490px;
+}
+.hero .middle-section .left .b-heading h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #2f2105;
+}
+.hero .middle-section .left .b-heading h1 span {
+  color: #ff902b;
+}
+.hero .middle-section .left .sm-heading {
+  max-width: 395px;
+  margin: 1.75rem 0;
+  max-width: 395px;
+  margin: 1.75rem 0;
+  position: relative;
+  top: -4px;
+}
+.hero .middle-section .left .sm-heading p {
+  font-size: 1.125rem;
+  color: #7e7d7a;
+}
+.hero .middle-section .left .h-btns .primary-btn {
+  margin-right: 2rem;
+  background: #2f2105;
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .middle-section .left .h-btns .primary-btn span {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #ff902b;
+  margin-left: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .middle-section .left .h-btns .primary-btn span svg path {
+  stroke: white;
+}
+.hero .middle-section .left .h-btns .secondary-btn {
+  background: none;
+  border-color: transparent;
+  color: #f4ae26;
+  font-size: 12px;
+  padding: 0.5rem 1.2rem;
+}
+.hero .middle-section .left .h-btns .secondary-btn:hover {
+  color: #ff902b;
+  border: 2px solid #ff902b;
+}
+.hero .middle-section .right .img-container {
+  position: relative;
+  width: 420px;
+  height: 420px;
+  background: #2f2105;
+  background-image: url(../../../Img/Union.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-blend-mode: screen;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .middle-section .right .img-container .group {
+  position: absolute;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 2.8rem;
+  background: white;
+  padding: 0.7rem 2.5rem;
+  z-index: 12;
+}
+.hero .middle-section .right .img-container .group::before {
+  content: "";
+  position: absolute;
+  border-radius: inherit;
+  top: -13%;
+  left: -6%;
+  width: 112%;
+  height: 125%;
+  background: linear-gradient(92.95deg, rgba(255, 255, 255, 0.4) 0.82%, rgba(255, 255, 255, 0.7) 96.47%);
+  z-index: -1;
+}
+.hero .middle-section .right .img-container .group span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2f2105;
+}
+.hero .middle-section .right .img-container .group span img {
+  position: relative;
+  top: 3px;
+  margin-left: 0.5rem;
+  width: 24px;
+  height: 24px;
+}
+.hero .middle-section .right .img-container .element1 {
+  top: 5%;
+  left: -5%;
+}
+.hero .middle-section .right .img-container .element1::before {
+  left: -5%;
+  width: 110%;
+}
+.hero .middle-section .right .img-container .element2 {
+  top: 25%;
+  right: -5%;
+}
+.hero .middle-section .right .img-container .element3 {
+  top: 75%;
+  left: 5%;
+}/*# sourceMappingURL=hero.css.map */

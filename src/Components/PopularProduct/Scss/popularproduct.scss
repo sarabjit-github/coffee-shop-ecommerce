@@ -1,0 +1,39 @@
+$accent: #f6ebda;
+$primary: #ff902b;
+$secondary: #2f2105;
+$light: #7e7d7a;
+
+.popular-section {
+  max-width: 1270px;
+  width: 100%;
+  margin: 0 auto;
+  // background: red;
+  height: 300px;
+  position: relative;
+  .container {
+    position: absolute;
+    top: -100%;
+    width: inherit;
+    height: inherit;
+    // background: aliceblue;
+    .p-heading{
+      max-width: 1180px;
+      margin: 0 auto;
+    }
+    .p-container {
+      width: inherit;
+      height: 367px;
+      background: #f9d9aa;
+      border-radius: 4rem;
+      margin-top: 9rem;
+      .card-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        position: relative;
+        top: -30%;
+      }
+    }
+  }
+}

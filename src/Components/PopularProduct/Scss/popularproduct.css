@@ -1,0 +1,32 @@
+.popular-section {
+  max-width: 1270px;
+  width: 100%;
+  margin: 0 auto;
+  height: 300px;
+  position: relative;
+}
+.popular-section .container {
+  position: absolute;
+  top: -100%;
+  width: inherit;
+  height: inherit;
+}
+.popular-section .container .p-heading {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.popular-section .container .p-container {
+  width: inherit;
+  height: 367px;
+  background: #f9d9aa;
+  border-radius: 4rem;
+  margin-top: 9rem;
+}
+.popular-section .container .p-container .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  position: relative;
+  top: -30%;
+}/*# sourceMappingURL=popularproduct.css.map */

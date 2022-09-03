@@ -1,0 +1,80 @@
+header {
+  max-width: 1160px;
+  width: 100%;
+  padding: 36px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+header .left {
+  z-index: 10;
+}
+header .center {
+  z-index: 10;
+}
+header .center nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.125rem;
+  margin: 0 16px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+header .center nav a.active {
+  color: #ff902b;
+}
+header .center nav a:hover {
+  color: #ff902b;
+}
+header .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .right .search-bar {
+  position: relative;
+  max-width: 222px;
+  height: 40px;
+  margin-right: 24px;
+}
+header .right .search-bar .search-icon {
+  position: absolute;
+  width: 45px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+header .right .search-bar .search-icon img {
+  width: 19px;
+  height: 19px;
+  cursor: pointer;
+}
+header .right .search-bar input {
+  width: 100%;
+  height: inherit;
+  background: white;
+  filter: drop-shadow(6px 2px 24px rgba(0, 0, 0, 0.13));
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  padding-left: 50px;
+}
+header .right .search-bar input::-moz-placeholder {
+  font-size: 12px;
+}
+header .right .search-bar input:-ms-input-placeholder {
+  font-size: 12px;
+}
+header .right .search-bar input::placeholder {
+  font-size: 12px;
+}
+header .right .cart-icon {
+  width: 32px;
+  height: 32px;
+  z-index: 10;
+  cursor: pointer;
+}/*# sourceMappingURL=navbar.css.map */

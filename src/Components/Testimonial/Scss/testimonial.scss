@@ -1,0 +1,131 @@
+$accent: #f6ebda;
+$primary: #ff902b;
+$secondary: #2f2105;
+$light: #7e7d7a;
+
+.tm-con {
+  position: relative;
+  margin-bottom: 7rem;
+  .bg-img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: max-content;
+    width: 100%;
+    z-index: -1;
+    img {
+      position: relative;
+      left: -5%;
+      width: 70%;
+      max-height: 484px;
+      height: 484px;
+      border-top-right-radius: 16px;
+      border-bottom-right-radius: 16px;
+      border-radius: 0 1.5rem 1.5rem 0;
+    }
+  }
+  .tc-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 484px;
+    & > .heading {
+      max-width: 900px;
+      margin: auto;
+      padding: 0 2rem;
+    }
+    .heading > p {
+      margin-top: 1rem;
+      max-width: 350px;
+      color: $light;
+      font-size: 1.125rem;
+      line-height: 1.5;
+    }
+    .slider {
+      // display: flex;
+      .swiper {
+        max-width: 870px;
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        // text-align: center;
+        // font-size: 18px;
+        // background: #fff;
+
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 204px;
+        // max-height: 280px;
+      }
+    }
+  }
+}
+.tp-con {
+  max-width: 204px;
+  // max-height: 280px;
+  position: relative;
+  // &::before{
+  //   content: "";
+  //   position: absolute;
+  //   top: -8px;
+  //   left: -8px;
+  //   width: 108%;
+  //   height: 106%;
+  //   background-color: rgba(255, 203, 124, 0.62);
+  //   z-index: -1;
+  // }
+  .img {
+    max-width: 204px;
+    // max-height: 280px;
+    img {
+      object-fit: cover;
+      border: 0.4rem solid rgba(255, 203, 124, 0.62);
+    }
+  }
+  .tt-con {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background: #ffcb7c;
+    width: 236.5px;
+    // height: 86px;
+    border-radius: 8px;
+    padding: 12px;
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+      color: $secondary;
+    }
+    p {
+      font-size: 14px;
+      color: $secondary;
+      line-height: 20px;
+      letter-spacing: 0.5px;
+    }
+    &::before {
+      content: "";
+      position: absolute;
+      top: -7px;
+      left: -5px;
+      width: 105%;
+      height: 115%;
+      background-color: rgba(255, 203, 124, 0.62);
+      z-index: -1;
+      border-radius: 10px;
+    }
+  }
+}
+.swiper-pagination {
+  position: relative !important;
+  bottom: 0px !important;
+  .swiper-pagination-bullet {
+    background-color: rgba(255, 146, 43, 0.75) !important;
+  }
+  .swiper-pagination-bullet-active {
+    background: $primary !important;
+  }
+}
