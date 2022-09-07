@@ -6,6 +6,7 @@ import { About } from "./Components/About/About";
 import { Menu } from "./Components/Menu/Menu";
 import { Testimonial } from "./Components/Testimonial/Testimonial";
 import { Newsletter } from "./Components/Newsletter/Newsletter";
+import { Navbar } from "./Components/Navbar/Navbar";
 
 function App() {
   return (

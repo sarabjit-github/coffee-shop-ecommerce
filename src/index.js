@@ -4,6 +4,7 @@ import App from "./App";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { About } from "./Components/About/About";
 import { Menu } from "./Components/Menu/Menu";
+import { Navbar } from "./Components/Navbar/Navbar";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

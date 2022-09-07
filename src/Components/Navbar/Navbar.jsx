@@ -18,6 +18,7 @@ export const Navbar = ({deliveryTab}) => {
       </div>
       <div className="center">
         <nav>
+          <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About Us</NavLink>
           <NavLink to="/ourproduct">Our Product</NavLink>
           {
